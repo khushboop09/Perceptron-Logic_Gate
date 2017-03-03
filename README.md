@@ -9,21 +9,58 @@ Implementation of AND and OR logic gates using a single-layer perceptron.
 <br><br>
 AND Logic Gate:<br>
 <table>
-| x1 | x2 | output |
-|---:|----|--------|
-| 0  | 0  | 0      |
-| 0  | 1  | 0      |
-| 1  | 0  | 0      |
-| 1  | 1  | 1      |
+  <tr>
+  <th>X1</th>
+  <th>X2</th>
+  <th>Output</th>
+  </tr>
+  <tr>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  </tr>
+  <tr>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  </tr>
+  <tr>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  </tr>
+  <tr>
+  <td>1</td>
+  <td>1</td>
+  <td>1</td>
+  </tr>
 </table>
 <br><br>
 OR Logic Gate:<br>
 <table>
-| x1 | x2 | output |
-|---:|----|--------|
-| 0  | 0  | 0      |
-| 0  | 1  | 1      |
-| 1  | 0  | 1      |
-| 1  | 1  | 1      |
+  <tr>
+  <th>X1</th>
+  <th>X2</th>
+  <th>Output</th>
+  </tr>
+  <tr>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  </tr>
+  <tr>
+  <td>0</td>
+  <td>1</td>
+  <td>1</td>
+  </tr>
+  <tr>
+  <td>1</td>
+  <td>0</td>
+  <td>1</td>
+  </tr>
+  <tr>
+  <td>1</td>
+  <td>1</td>
+  <td>1</td>
+  </tr>
 </table>
-
